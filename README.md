@@ -101,15 +101,11 @@ We evaluate the performance of the IDS based on the following metrics:
 | **Ensemble** | 91% | 96.1% | 99.7% | 98.8% |
 | **KNN** | 87% | 95.4% | 99.6% | 98.5% |
 
-### 2.4 Graphs
-
-![Graphs](graphs.png)
-
-### 2.5 Mapping the Results with Problem Statement
+### 2.4 Mapping the Results with Problem Statement
 
 Our project addresses critical societal needs by deploying an IDS aimed at enhancing cybersecurity universally, transcending age and gender barriers. It safeguards digital assets, particularly benefiting IT and finance sectors, by thwarting network attacks. Furthermore, it lays the groundwork for secure public services, envisioning a future where individuals can connect to potentially insecure networks without compromising data security.
 
-### 2.6 Comparison with Existing System
+### 2.5 Comparison with Existing System
 
 To improve our model, we compared it with the model used in the research paper "A Deep Learning Approach for Network Intrusion Detection System" by Quamar Niyaz, Weiqing Sun, Ahmad Y Javaid, and Mansoor Alam. The following table highlights the differences:
 
@@ -123,3 +119,11 @@ To improve our model, we compared it with the model used in the research paper "
 | **Feature Learning Method** | Sparse Autoencoder is commonly used. | Various base learners, e.g., decision trees, SVMs, neural networks. |
 | **Training Process** | Learns optimal feature representation from unlabeled data through back-propagation. | Trains multiple models independently or sequentially. |
 | **Model Diversity** | Focuses on learning diverse and meaningful features from the data
+
+##Screenshots:
+
+**Cloud Deployment**
+
+![image](https://github.com/sompuradhruv/Network-Intrusion-Detection-System-Using-Machine-Learning-Algorithms-Deployed-to-AWS-cloud/assets/78086198/42638fac-1e4c-4568-866a-92812259bd43)
+![image](https://github.com/sompuradhruv/Network-Intrusion-Detection-System-Using-Machine-Learning-Algorithms-Deployed-to-AWS-cloud/assets/78086198/79742f03-c81b-410b-ae03-e554d6aac5ab)
+
